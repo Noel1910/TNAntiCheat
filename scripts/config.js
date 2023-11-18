@@ -305,7 +305,7 @@ export default /** @type {import('./types').IConfig} */ ({
   others: {
     adminPanel: "minecraft:stick", // 管理者用パネルを呼び出すためのアイテム
     debug: false,
-    fixBDS: false, // Realmsで使う場合はオンにしてください
+    fixBDS: true, // Realmsで使う場合はオンにしてください
     blockCopy: true, // 管理者アイテムでブロックをスニーク+タップするとコピーできます
     timezoneOffset: +9, // 時刻表示用
     
